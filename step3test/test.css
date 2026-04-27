@@ -1,0 +1,102 @@
+/* 全体のベース設定 */
+body {
+    font-family: "Yu Gothic", "Helvetica", sans-serif;
+    background-color: #faf8f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  /* 全体の余白 */
+   main, section, header, footer, nav {
+    padding: 20px;
+  }
+  /*ヘッダー*/
+  header {
+    background-color: #6b3f31;
+    color: white;
+    text-align: center;
+  }
+  /*ナビゲーション*/
+  nav {
+    background-color: #6b3f31;
+    color: white;
+    border: none;
+    
+    margin: 0;
+  }
+  /*デザイン*/
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;    
+  }
+  nav li {
+    margin: 0 15px;
+  }
+  nav a {
+    
+    
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 10px 0;
+
+  }
+  p1, p2, p3 {
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+     padding:50px 30px;
+     width: 10%;
+     
+     border-radius: 4px;
+     background-color: #ffffff;
+
+  }
+  /*セクションの見出し*/
+  section1 h2, section2 h2, section3 h2 {
+  text-decoration: underline;
+    text-decoration-color: #6b3f31;
+  }
+
+  /*フォーム*/
+  section3 form {
+    margin-top: 20px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  /*ボタン*/
+  button {
+    background-color: #6b3f31;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6b3f31;
+  }
+
+ /*フッター*/
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  } 
