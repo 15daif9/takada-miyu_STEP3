@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-}
+  }
   /* 全体の余白 */
    main, section, header, footer, nav {
     padding: 20px;
@@ -23,7 +23,7 @@ body {
     background-color: #6b3f31;
     color: white;
     border: none;
-    
+    text-align: center;
     margin: 0;
   }
   /*デザイン*/
@@ -32,14 +32,19 @@ body {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 0;    
+    margin: 0;  
+    
   }
   nav li {
     margin: 0 15px;
   }
   nav a {
+    color: #ffffff;
+    text-decoration: none;
     
-    
+  }
+  a:hover {
+color: #a7a7a7;
   }
   img {
     max-width: 100%;
@@ -47,6 +52,10 @@ body {
     border-radius: 4px;
     margin: 10px 0;
 
+  }
+  section2 {
+    
+  
   }
   p1, p2, p3 {
     display: inline-block;
@@ -86,10 +95,11 @@ body {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+    width: 20%;
   }
   
   button:hover {
-    background-color: #6b3f31;
+    background-color: #4d2d23;
   }
 
  /*フッター*/
